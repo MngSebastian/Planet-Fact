@@ -10,14 +10,14 @@ function Navbar() {
 
             <div className='planets-list'>
                 <ul>
-                    <li>Mercury</li>
-                    <li>Venus</li>
-                    <li>Earth</li>
-                    <li>Mars</li>
-                    <li>Jupiter</li>
-                    <li>Saturn</li>
-                    <li>Uranus</li>
-                    <li>Neptune</li>
+                    <li><a href='#'>Mercury</a></li>
+                    <li><a href='#'>Venus</a></li>
+                    <li><a href='#'>Earth</a></li>
+                    <li><a href='#'>Mars</a></li>
+                    <li><a href='#'>Jupiter</a></li>
+                    <li><a href='#'>Saturn</a></li>
+                    <li><a href='#'>Uranus</a></li>
+                    <li><a href='#'>Neptune</a></li>
                 </ul>
             </div>
 

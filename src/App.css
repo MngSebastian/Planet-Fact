@@ -1,3 +1,9 @@
+/* ---------------------NAVBAR-------------- */
+body {
+  background: #070724;
+  background-image: url("./assets/background-stars.svg");
+}
+
 .navbar {
   display: flex;
   border-bottom: 1px solid gray;
@@ -8,15 +14,21 @@
 
 .home-btn {
   display: flex;
+  color: white;
   width: 10vw;
   padding-left: 2vw;
   align-items: center;
+  font-family: "Antonio", sans-serif;
+  font-size: 30px;
 }
 
 .planets-list {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Antonio", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
   width: 50vw;
 }
 
@@ -31,4 +43,71 @@ ul {
 
 li {
   display: flex;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ---------------------Main Info-------------- */
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  width: auto;
+  height: 66vh;
+  border: 1px solid white;
+  color: white;
+}
+
+.planet-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 50vw;
+  border: 1px solid yellow;
+}
+
+.planet-info {
+  height: 55vh;
+  width: 25vw;
+  border: 1px solid yellow;
+}
+
+.planet-name {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.planet-btn {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid #838391;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.planet-btn:hover {
+  background-color: #38384f;
+}
+.planet-btn:active {
+  background-color: #419ebb;
+}
+
+.wikipedia {
+  font-size: 18px;
+  font-weight: 600;
+  color: #838391;
 }
