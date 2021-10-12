@@ -96,13 +96,36 @@ ul a {
   color: white;
   margin-bottom: 20px;
 }
+.active-mercury{
+  background-color: #419EBB;
+}
+.active-venus{
+  background-color: #EDA249;
+}
+.active-earth{
+  background-color: #6F2ED6;
+}
+.active-mars{
+  background-color: #D14C32;
+}
+.active-jupiter{
+  background-color: #D83A34;
+}
+.active-saturn{
+  background-color: #CD5120;
+}
+.active-uranus{
+  background-color: #1EC2A4;
+}
+.active-neptune{
+  background-color: #2D68F0;
+}
+
 
 .planet-btn:hover {
   background-color: #38384f;
 }
-.planet-btn:active {
-  background-color: #419ebb;
-}
+
 
 .wikipedia {
   font-size: 18px;
