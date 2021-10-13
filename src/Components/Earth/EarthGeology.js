@@ -1,6 +1,6 @@
 import React from 'react'
 import Source from '../../assets/icon-source.svg'
-import Earth from '../../assets/planet-earth-internal.svg'
+import Earth from '../../assets/planet-earth.svg'
 import earthgeology from '../../assets/geology-earth.png'
 
 
@@ -10,7 +10,7 @@ function EarthGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={Earth} alt="Picture of Earth" />
-                    <img src={earthgeology} alt="Picture of Earth" />
+                    <img className='geology-image' src={earthgeology} alt="Picture of Earth" />
 
                 </div>
                 <div className='planet-info'>

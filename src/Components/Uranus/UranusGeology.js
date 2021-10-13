@@ -11,7 +11,7 @@ function UranusGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={uranus} alt="Picture of Uranus" />
-                    <img src={uranusgeology} alt="Picture of Uranus Geology" />
+                    <img className='geology-image' src={uranusgeology} alt="Picture of Uranus Geology" />
 
                 </div>
                 <div className='planet-info'>

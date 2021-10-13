@@ -10,7 +10,7 @@ function MarsGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={mars} alt="Picture of Mars" />
-                    <img src={marsgeology} alt="Picture of Mars" />
+                    <img className='geology-image' src={marsgeology} alt="Picture of Mars" />
 
                 </div>
                 <div className='planet-info'>

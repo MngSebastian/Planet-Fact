@@ -11,7 +11,7 @@ function SaturnGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={saturn} alt="Picture of Saturn Internal" />
-                    <img src={saturngeology} alt="Picture of Saturn's Geology" />
+                    <img className='geology-image' src={saturngeology} alt="Picture of Saturn's Geology" />
 
                 </div>
                 <div className='planet-info'>

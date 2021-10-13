@@ -11,7 +11,7 @@ function JupiterGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={jupiter} alt="Picture of Jupiter" />
-                    <img src={jupitergeology} alt="Picture of Jupiter Geology" />
+                    <img className='geology-image' src={jupitergeology} alt="Picture of Jupiter Geology" />
 
                 </div>
                 <div className='planet-info'>

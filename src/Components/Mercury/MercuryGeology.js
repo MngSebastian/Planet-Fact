@@ -10,7 +10,7 @@ function MercuryInternal() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={mercury} alt="Picture of Mercury" />
-                    <img src={mercurygeology} alt="Picture of Mercury Geology" />
+                    <img className='geology-image' src={mercurygeology} alt="Picture of Mercury Geology" />
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>MERCURY</h1>

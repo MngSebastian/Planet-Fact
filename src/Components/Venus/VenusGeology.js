@@ -9,7 +9,7 @@ function VenusInternal() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={Venus} alt="Picture of Venus" />
-                    <img src={venusgeology} alt="Picture of Venus" />
+                    <img className='geology-image' src={venusgeology} alt="Picture of Venus" />
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Venus</h1>

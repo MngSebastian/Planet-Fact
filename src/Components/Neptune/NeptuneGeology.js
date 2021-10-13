@@ -10,7 +10,7 @@ function NeptuneGeology() {
             <div className='main'>
                 <div className='planet-img'>
                     <img src={neptune} alt="Picture of Neptune" />
-                    <img src={neptunegeology} alt="Picture of Neptune's Geology" />
+                    <img className='geology-image' src={neptunegeology} alt="Picture of Neptune's Geology" />
 
                 </div>
                 <div className='planet-info'>
