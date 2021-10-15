@@ -13,7 +13,7 @@ function VenusInternal() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Venus</h1>
-                    <p>TMuch of the Venusian surface appears to have been shaped by volcanic activity. Venus
+                    <p className='planet-info-text'>TMuch of the Venusian surface appears to have been shaped by volcanic activity. Venus
                         has several times as many volcanoes as Earth, and it has 167 large volcanoes that are
                         over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island
                         of Hawaii.</p>

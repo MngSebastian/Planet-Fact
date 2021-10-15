@@ -8,11 +8,11 @@ function Saturn() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <img src={saturn} alt="Picture of Saturn" />
+                    <img className='saturn-image' src={saturn} alt="Picture of Saturn" />
                 </div>
                 <div className='planet-info'>
-                    <h1 className='planet-name'>Saturn</h1>
-                    <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System,
+                    <h1 className='planet-name'>SATURN</h1>
+                    <p className='planet-info-text'>Saturn is the sixth planet from the Sun and the second-largest in the Solar System,
                         after Jupiter. It is a gas giant with an average radius of about nine and a half times that
                         of Earth.
                         It only has one-eighth the average density of Earth..</p>

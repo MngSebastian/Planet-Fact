@@ -11,7 +11,7 @@ function EarthInternal() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Earth</h1>
-                    <p>Earth's interior, like that of the other terrestrial planets, is divided into layers by
+                    <p className='planet-info-text'>Earth's interior, like that of the other terrestrial planets, is divided into layers by
                         their chemical or physical (rheological) properties. The outer layer is a chemically distinct
                         silicate solid crust, which is underlain by a highly viscous solid mantle.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

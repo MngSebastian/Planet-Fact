@@ -12,7 +12,7 @@ function MarsInternal() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Mars</h1>
-                    <p>Like Earth, Mars has differentiated into a dense metallic core overlaid by
+                    <p className='planet-info-text'>Like Earth, Mars has differentiated into a dense metallic core overlaid by
                         less dense materials. Scientists initially determined that the core is at least
                         partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

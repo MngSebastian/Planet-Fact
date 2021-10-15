@@ -11,8 +11,8 @@ function Venus() {
                     <img src={venus} alt="Picture of Venus" />
                 </div>
                 <div className='planet-info'>
-                    <h1 className='planet-name'>Venus</h1>
-                    <p>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.
+                    <h1 className='planet-name'>VENUS</h1>
+                    <p className='planet-info-text'>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.
                         As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and
                         can be, on rare occasions, visible to the naked eye in broad daylight.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

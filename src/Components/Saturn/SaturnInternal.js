@@ -8,11 +8,11 @@ function SaturnInternal() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <img src={saturn} alt="Picture of Saturn Internal" />
+                    <img className='saturn-image' src={saturn} alt="Picture of Saturn Internal" />
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Saturn</h1>
-                    <p>Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the
+                    <p className='planet-info-text'>Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the
                         gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01
                         g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

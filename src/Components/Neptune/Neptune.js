@@ -11,8 +11,8 @@ function Neptune() {
                     <img src={neptune} alt="Picture of Neptune" />
                 </div>
                 <div className='planet-info'>
-                    <h1 className='planet-name'>Neptune</h1>
-                    <p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the
+                    <h1 className='planet-name'>NEPTUNE</h1>
+                    <p className='planet-info-text'>Neptune is the eighth and farthest-known Solar planet from the Sun. In the
                         Solar System, it is the fourth-largest planet by diameter, the third-most-massive
                         planet, and the densest giant planet. It is 17 times the mass of Earth,
                         more massive than its near-twin Uranus.</p>

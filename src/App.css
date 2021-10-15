@@ -22,12 +22,12 @@ body {
   font-size: 30px;
 }
 
-.planets-list {
+.planets-img {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Antonio", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
   width: 50vw;
 }
@@ -46,7 +46,8 @@ li {
 }
 
 ul a {
-  color: white;
+  color: rgba(251, 251, 251, 0.9);
+  letter-spacing: 1px;
   text-decoration: none;
 }
 
@@ -98,77 +99,154 @@ ul a {
   color: white;
   margin-bottom: 20px;
 }
-.active-mercury{
-  background-color: #419EBB;
+.active-mercury {
+  background-color: #419ebb;
 }
 
-.active-venus{
-  background-color: #EDA249;
+.active-venus {
+  background-color: #eda249;
 }
 
-.active-earth{
-  background-color: #6F2ED6;
+.active-earth {
+  background-color: #6f2ed6;
 }
-.active-mars{
-  background-color: #D14C32;
+.active-mars {
+  background-color: #d14c32;
 }
-.active-jupiter{
-  background-color: #D83A34;
+.active-jupiter {
+  background-color: #d83a34;
 }
-.active-saturn{
-  background-color: #CD5120;
+.active-saturn {
+  background-color: #cd5120;
 }
-.active-uranus{
-  background-color: #1EC2A4;
+.active-uranus {
+  background-color: #1ec2a4;
 }
-.active-neptune{
-  background-color: #2D68F0;
+.active-neptune {
+  background-color: #2d68f0;
 }
 
 /* Nav Bar Hover */
-.nav-mercury, .nav-venus, .nav-earth, .nav-mars, .nav-jupiter, .nav-saturn, .nav-uranus, .nav-neptune {
-  border-bottom: 6px solid transparent;
-  display: block;
+.nav-venus,
+.nav-earth,
+.nav-mars,
+.nav-jupiter,
+.nav-saturn,
+.nav-uranus,
+.nav-neptune,
+.nav-mercury {
+  display: flex;
+  color: rgba(251, 251, 251, 0.65);
+  position: relative;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  height: 10vh;
+  width: 6vw;
 }
 
-.nav-mercury:hover::after{
-  border-bottom: 6px solid #419EBB;
-  display: block;
-}
-.nav-venus:hover{
-  border-bottom: 6px solid #EDA249;
-  display: block;
-}
-.nav-earth:hover{
-  border-bottom: 6px solid #6F2ED6;
-  display: block;
-}
-.nav-mars:hover{
-  border-bottom: 6px solid #D14C32;
-  display: block;
-}
-.nav-jupiter:hover{
-  border-bottom: 6px solid #D83A34;
-  display: block;
-}
-.nav-saturn:hover{
-  border-bottom: 6px solid #CD5120;
-  display: block;
-}
-.nav-uranus:hover{
-  border-bottom: 6px solid #1EC2A4;
-  display: block;
-}
-.nav-neptune:hover{
-  border-bottom: 6px solid #2D68F0;
-  display: block;
+.nav-mercury::before,
+.nav-venus::before,
+.nav-earth::before,
+.nav-mars::before,
+.nav-jupiter::before,
+.nav-saturn::before,
+.nav-uranus::before,
+.nav-neptune::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 5px;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
 }
 
+.nav-mercury::before {
+  background-color: #419ebb;
+  transform: scaleX(0);
+}
+.nav-mercury:hover::before,
+.nav-mercury:focus::before {
+  background-color: #419ebb;
+  transform: scaleX(1);
+}
+
+.nav-venus::before {
+  background-color: #eda249;
+  transform: scaleX(0);
+}
+.nav-venus:hover::before,
+.nav-venus:focus::before {
+  background-color: #eda249;
+  transform: scaleX(1);
+}
+
+.nav-earth::before {
+  background-color: #6f2ed6;
+  transform: scaleX(0);
+}
+.nav-earth:hover::before,
+.nav-earth:focus::before {
+  background-color: #6f2ed6;
+  transform: scaleX(1);
+}
+
+.nav-mars::before {
+  background-color: #d14c32;
+  transform: scaleX(0);
+}
+.nav-mars:hover::before,
+.nav-mars:focus::before {
+  background-color: #d14c32;
+  transform: scaleX(1);
+}
+
+.nav-jupiter::before {
+  background-color: #d83a34;
+  transform: scaleX(0);
+}
+.nav-jupiter:hover::before,
+.nav-jupiter:focus::before {
+  background-color: #d83a34;
+  transform: scaleX(1);
+}
+
+.nav-saturn::before {
+  background-color: #cd5120;
+  transform: scaleX(0);
+}
+.nav-saturn:hover::before,
+.nav-saturn:focus::before {
+  background-color: #cd5120;
+  transform: scaleX(1);
+}
+
+.nav-uranus::before {
+  background-color: #1ec2a4;
+  transform: scaleX(0);
+}
+.nav-uranus:hover::before,
+.nav-uranus:focus::before {
+  background-color: #1ec2a4;
+  transform: scaleX(1);
+}
+
+.nav-neptune::before {
+  background-color: #2d68f0;
+  transform: scaleX(0);
+}
+.nav-neptune:hover::before,
+.nav-neptune:focus::before {
+  background-color: #2d68f0;
+  transform: scaleX(1);
+}
 
 .planet-btn:hover {
   background-color: #38384f;
+  color: white;
 }
-
 
 .wikipedia {
   font-size: 18px;
@@ -220,8 +298,23 @@ ul a {
   font-size: 25px;
 }
 
-.geology-image{
+.geology-image {
   position: absolute;
   margin-top: 40vh;
   height: 20vh;
+}
+
+.jupiter-image,
+.saturn-image {
+  height: 64vh;
+}
+
+.saturn-image {
+  height: 70vh;
+}
+
+.planet-info-text {
+  color: rgba(251, 251, 251, 0.65);
+  letter-spacing: 0.7px;
+  line-height: 21px;
 }

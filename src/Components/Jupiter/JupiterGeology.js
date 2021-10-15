@@ -10,13 +10,13 @@ function JupiterGeology() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <img src={jupiter} alt="Picture of Jupiter" />
+                    <img className='jupiter-image' src={jupiter} alt="Picture of Jupiter" />
                     <img className='geology-image' src={jupitergeology} alt="Picture of Jupiter Geology" />
 
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Jupiter</h1>
-                    <p>The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located
+                    <p className='planet-info-text'>The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located
                         22° south of the equator. It is known to have existed since at least 1831, and possibly since
                         1665.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

@@ -8,11 +8,11 @@ function JupiterInternal() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <img src={jupiter} alt="Picture of Jupiter" />
+                    <img className='jupiter-image' src={jupiter} alt="Picture of Jupiter" />
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Jupiter</h1>
-                    <p>When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes
+                    <p className='planet-info-text'>When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes
                         into its mantle. A possible cause is an impact from a planet of about ten Earth masses a
                         few million years after Jupiter's formation, which would have disrupted an originally
                         solid Jovian core.</p>

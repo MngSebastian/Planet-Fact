@@ -11,8 +11,8 @@ function Uranus() {
                     <img src={uranus} alt="Picture of Uranus" />
                 </div>
                 <div className='planet-info'>
-                    <h1 className='planet-name'>Uranus</h1>
-                    <p>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god
+                    <h1 className='planet-name'>URANUS</h1>
+                    <p className='planet-info-text'>Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god
                         of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares.
                         It has the third-largest planetary radius and fourth-largest planetary mass in the Solar
                         System.</p>

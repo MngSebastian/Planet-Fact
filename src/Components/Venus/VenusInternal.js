@@ -11,7 +11,7 @@ function VenusInternal() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Venus</h1>
-                    <p>The similarity in size and density between Venus and Earth suggests they
+                    <p className='planet-info-text'>The similarity in size and density between Venus and Earth suggests they
                         share a similar internal structure: a core, mantle, and crust.
                         Like that of Earth, Venusian core is most likely at least partially liquid
                         because the two planets have been cooling at about the same rate.</p>

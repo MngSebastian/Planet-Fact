@@ -8,11 +8,11 @@ function Jupiter() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <img src={jupiter} alt="Picture of Jupiter" />
+                    <img className='jupiter-image' src={jupiter} alt="Picture of Jupiter" />
                 </div>
                 <div className='planet-info'>
-                    <h1 className='planet-name'>Jupiter</h1>
-                    <p>Jupiter is the fifth planet from the Sun and the largest in the Solar System.
+                    <h1 className='planet-name'>JUPITER</h1>
+                    <p className='planet-info-text'>Jupiter is the fifth planet from the Sun and the largest in the Solar System.
                         It is a gas giant with a mass two and a half times that of all the other planets
                         in the Solar System combined, but less than one-thousandth the mass of the Sun.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

@@ -12,7 +12,7 @@ function UranusInternal() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Uranus</h1>
-                    <p>The standard model of Uranus's structure is that it consists of three layers:
+                    <p className='planet-info-text'>The standard model of Uranus's structure is that it consists of three layers:
                         a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an
                         outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of
                         only 0.55 Earth masses.</p>

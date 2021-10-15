@@ -15,7 +15,7 @@ function MarsGeology() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Mars</h1>
-                    <p>Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen,
+                    <p className='planet-info-text'>Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen,
                         metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic
                         basalt, although parts are more silica-rich than typical basalt.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

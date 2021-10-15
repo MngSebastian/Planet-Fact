@@ -16,7 +16,7 @@ function UranusGeology() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Uranus</h1>
-                    <p>The composition of Uranus's atmosphere is different from its bulk, consisting
+                    <p className='planet-info-text'>The composition of Uranus's atmosphere is different from its bulk, consisting
                         mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of
                         helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>

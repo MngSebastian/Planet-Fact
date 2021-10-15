@@ -15,7 +15,7 @@ function NeptuneGeology() {
                 </div>
                 <div className='planet-info'>
                     <h1 className='planet-name'>Neptune</h1>
-                    <p>Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is
+                    <p className='planet-info-text'>Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is
                         also present. Prominent absorption bands of methane exist at wavelengths above 600 nm,
                         in the red and infrared portion of the spectrum.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
