@@ -8,7 +8,6 @@ function Body() {
         <div>
             <div className='main'>
                 <div className='planet-img'>
-                    <li><a className='nav-test' href='/'>Test</a></li>
                     <img src={Mercury} alt="Picture of Mercury" />
 
                 </div>
