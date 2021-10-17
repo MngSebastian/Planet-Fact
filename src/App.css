@@ -214,6 +214,12 @@ ul a {
   margin: 0;
 }
 
+.planet-info-text {
+  color: rgba(251, 251, 251, 0.65);
+  letter-spacing: 0.7px;
+  line-height: 21px;
+}
+
 .planet-btn {
   display: flex;
   cursor: pointer;
@@ -305,8 +311,95 @@ ul a {
   font-size: 30px;
 }
 
-.planet-info-text {
-  color: rgba(251, 251, 251, 0.65);
-  letter-spacing: 0.7px;
-  line-height: 21px;
+/* ----------------            MEDIA QUERIES           ------------------- */
+/* 
+  ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ----------------     NAVBAR    ------------------- */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-btn {
+    display: flex;
+    color: white;
+    width: 30vw;
+    height: 10vh;
+    padding-left: 0;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Antonio", sans-serif;
+    font-size: 30px;
+  }
+
+  .planets-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 80vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+
+  ul {
+    margin: 0;
+    width: 59vw;
+  }
+
+  /* ----------------     Main Info    ------------------- */
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 0;
+    width: auto;
+    height: 66vh;
+    color: white;
+    border: 1px solid red;
+  }
+
+  .planet-img {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 50vw;
+    border: 1px solid yellow;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
 }
