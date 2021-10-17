@@ -30,7 +30,7 @@ function Jupiter() {
             <div className='footer'>
                 <div className='rotation-time'>
                     <p className='title'>ROTATION TIME</p>
-                    <p className='value'>9.93 DAYS</p>
+                    <p className='value'>9.93 HOURS</p>
                 </div>
                 <div className='revolution-time'>
                     <p className='title'>REVOLUTION TIME</p>

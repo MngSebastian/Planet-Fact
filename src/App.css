@@ -1,128 +1,47 @@
-/* ----------------------------------- */
+/* ----------------     BODY    ------------------- */
 body {
   background: #070724;
   background-image: url("./assets/background-stars.svg");
 }
 
+/* ----------------     NAVBAR    ------------------- */
+
 .navbar {
   display: flex;
   border-bottom: 1px solid gray;
   height: 8vh;
-  /* width: auto; */
   justify-content: space-between;
 }
 
 .home-btn {
   display: flex;
   color: white;
-  width: 10vw;
+  width: 15vw;
   padding-left: 2vw;
   align-items: center;
   font-family: "Antonio", sans-serif;
   font-size: 30px;
 }
 
-.planets-img {
+.planets-list {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: "Antonio", sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  width: 50vw;
+  width: 70vw;
 }
 
 ul {
   display: flex;
-  height: auto;
-  width: auto;
+  justify-content: end;
   margin: 0;
+  width: 65vw;
 }
 
 ul a {
+  display: flex;
   letter-spacing: 1px;
   font-weight: 600;
 }
-
-/* ---------------------Main Info-------------- */
-
-.main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 0;
-  width: auto;
-  height: 66vh;
-  color: white;
-}
-
-.planets-list {
-  display: flex;
-  width: 50vw;
-}
-
-.planet-img {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 55vh;
-  width: 50vw;
-}
-
-.planet-info {
-  height: 60vh;
-  width: 25vw;
-}
-
-.planet-name {
-  font-size: 50px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.planet-btn {
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 500;
-  width: 25vw;
-  height: 6vh;
-  border: 1px solid #38384f;
-  background-color: transparent;
-  color: white;
-  margin-bottom: 20px;
-}
-.active-mercury {
-  background-color: #419ebb;
-}
-
-.active-venus {
-  background-color: #eda249;
-}
-
-.active-earth {
-  background-color: #6f2ed6;
-}
-.active-mars {
-  background-color: #d14c32;
-}
-.active-jupiter {
-  background-color: #d83a34;
-}
-.active-saturn {
-  background-color: #cd5120;
-}
-.active-uranus {
-  background-color: #1ec2a4;
-}
-.active-neptune {
-  background-color: #2d68f0;
-}
-
-/* Nav Bar Hover */
+/* ----------------     Navbar States And Color Schemes    ------------------- */
 .nav-venus,
 .nav-earth,
 .nav-mars,
@@ -248,9 +167,65 @@ ul a {
   background-color: #2d68f0;
   transform: scaleX(1);
 }
+/* ----------------     Main Info    ------------------- */
 
-.planet-btn:hover {
-  background-color: #38384f;
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0;
+  width: auto;
+  height: 66vh;
+  color: white;
+}
+
+.planet-img {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 50vw;
+}
+
+.jupiter-image {
+  height: 64vh;
+}
+
+.saturn-image {
+  height: 70vh;
+}
+
+.geology-image {
+  position: absolute;
+  margin-top: 40vh;
+  height: 20vh;
+}
+
+.planet-info {
+  height: 60vh;
+  width: 25vw;
+}
+
+.planet-name {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.planet-btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid #38384f;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .wikipedia {
@@ -264,11 +239,39 @@ ul a {
   padding-right: 5vw;
 }
 
-.img {
-  width: 2000px;
+/* ----------------     Active-Color States for the Planet Buttons    ------------------- */
+
+.active-mercury {
+  background-color: #419ebb;
 }
 
-/* ---------------------Footer -------------- */
+.active-venus {
+  background-color: #eda249;
+}
+
+.active-earth {
+  background-color: #6f2ed6;
+}
+.active-mars {
+  background-color: #d14c32;
+}
+.active-jupiter {
+  background-color: #d83a34;
+}
+.active-saturn {
+  background-color: #cd5120;
+}
+.active-uranus {
+  background-color: #1ec2a4;
+}
+.active-neptune {
+  background-color: #2d68f0;
+}
+.planet-btn:hover {
+  background-color: #38384f;
+}
+
+/* ----------------            FOOTER           ------------------- */
 
 .footer {
   display: flex;
@@ -276,6 +279,7 @@ ul a {
   align-items: center;
   height: 20vh;
   color: white;
+  margin-top: 3vh;
 }
 
 .rotation-time,
@@ -283,8 +287,8 @@ ul a {
 .radius,
 .average-temp {
   border: 1px solid #38384f;
-  width: 17vw;
-  height: 15vh;
+  width: 22vw;
+  height: 16vh;
 }
 
 .footer .title {
@@ -297,24 +301,8 @@ ul a {
 .footer .value {
   color: white;
   font-weight: 600;
-
   margin-left: 2vw;
   font-size: 30px;
-}
-
-.geology-image {
-  position: absolute;
-  margin-top: 40vh;
-  height: 20vh;
-}
-
-.jupiter-image,
-.saturn-image {
-  height: 64vh;
-}
-
-.saturn-image {
-  height: 70vh;
 }
 
 .planet-info-text {
