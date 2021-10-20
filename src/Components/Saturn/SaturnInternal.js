@@ -11,13 +11,16 @@ function SaturnInternal() {
                     <img className='saturn-image' src={saturn} alt="Picture of Saturn Internal" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Saturn</h1>
                     <p className='planet-info-text'>Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the
                         gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01
                         g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                    <div className='right'>
                     <form method="get" action="/saturn">
-                        <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
+                        <button type="submit" className='planet-btn overview '><p>01</p>Overview</button>
                     </form>
                     <form method="get" action="/saturn-internal">
                         <button className='planet-btn structure active-saturn'><p>02</p>Internal Structure</button>
@@ -25,6 +28,7 @@ function SaturnInternal() {
                     <form method="get" action="/saturn-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                    </div>
                 </div>
             </div>
             <div className='footer'>

@@ -11,12 +11,15 @@ function Neptune() {
                     <img src={neptune} alt="Picture of Neptune" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>NEPTUNE</h1>
                     <p className='planet-info-text'>Neptune is the eighth and farthest-known Solar planet from the Sun. In the
                         Solar System, it is the fourth-largest planet by diameter, the third-most-massive
                         planet, and the densest giant planet. It is 17 times the mass of Earth,
                         more massive than its near-twin Uranus.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/neptune">
                         <button type="submit" className='planet-btn overview active-neptune'><p>01</p>Overview</button>
                     </form>
@@ -26,6 +29,7 @@ function Neptune() {
                     <form method="get" action="/neptune-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

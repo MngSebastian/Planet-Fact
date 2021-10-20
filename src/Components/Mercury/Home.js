@@ -12,12 +12,15 @@ function Body() {
 
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>MERCURY</h1>
                     <p className='planet-info-text'>Mercury is the smallest planet in the Solar System and the closest to the Sun.
                         Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.
                         Mercury is one of four terrestrial
                         planets in the Solar System, and is a rocky body like Earth.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/">
                         <button type="submit" className='planet-btn overview active-mercury'><p>01</p>Overview</button>
                     </form>
@@ -27,6 +30,7 @@ function Body() {
                     <form method="get" action="/mercury-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

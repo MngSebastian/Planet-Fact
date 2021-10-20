@@ -11,12 +11,15 @@ function Saturn() {
                     <img className='saturn-image' src={saturn} alt="Picture of Saturn" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>SATURN</h1>
                     <p className='planet-info-text'>Saturn is the sixth planet from the Sun and the second-largest in the Solar System,
                         after Jupiter. It is a gas giant with an average radius of about nine and a half times that
                         of Earth.
                         It only has one-eighth the average density of Earth..</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                    </div>
+                    <div className='right'>
                     <form method="get" action="/saturn">
                         <button type="submit" className='planet-btn overview active-saturn'><p>01</p>Overview</button>
                     </form>
@@ -26,6 +29,7 @@ function Saturn() {
                     <form method="get" action="/saturn-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                    </div>
                 </div>
             </div>
             <div className='footer'>

@@ -333,7 +333,7 @@ ul a {
     width: 30vw;
     /* height: 30vh; */
     padding-left: 0;
-    margin-top: 8vh;
+    margin-top: 6vh;
     margin-bottom: 1.5vh;
     justify-content: center;
     align-items: baseline;
@@ -445,8 +445,55 @@ ul a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    width: 30vw;
+    height: 30vh;
+    width: 23vw;
+  }
+  .planet-name {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .planet-info-text {
+    letter-spacing: 0.3px;
+  }
+
+  /* ----------------     Footer    ------------------- */
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    color: white;
+    margin-top: 3vh;
+    /* border: 1px solid yellow; */
+  }
+
+  .rotation-time,
+  .revolution-time,
+  .radius,
+  .average-temp {
+    border: 1px solid #38384f;
+    width: 22vw;
+    height: 12vh;
+    /* border: 1px solid green; */
+  }
+
+  .footer .title {
+    margin-left: 2vw;
+    color: #838391;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .footer .value {
+    color: white;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 0;
+    font-size: 25px;
+    /* border: 1px solid green; */
   }
 }
 

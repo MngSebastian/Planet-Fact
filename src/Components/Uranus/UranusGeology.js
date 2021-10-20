@@ -15,11 +15,14 @@ function UranusGeology() {
 
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Uranus</h1>
                     <p className='planet-info-text'>The composition of Uranus's atmosphere is different from its bulk, consisting
                         mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of
                         helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/uranus">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -29,6 +32,7 @@ function UranusGeology() {
                     <form method="get" action="/uranus-geology">
                         <button className='planet-btn geology active-uranus'><p>03</p>Surface Geology</button>
                     </form>
+                    </div>
                 </div>
             </div>
             <div className='footer'>

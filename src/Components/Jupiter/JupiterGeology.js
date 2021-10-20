@@ -15,11 +15,14 @@ function JupiterGeology() {
 
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Jupiter</h1>
                     <p className='planet-info-text'>The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located
                         22° south of the equator. It is known to have existed since at least 1831, and possibly since
                         1665.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/jupiter">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -29,6 +32,7 @@ function JupiterGeology() {
                     <form method="get" action="/jupiter-geology">
                         <button className='planet-btn geology active-jupiter'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

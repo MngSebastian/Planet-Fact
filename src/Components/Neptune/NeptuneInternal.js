@@ -11,11 +11,14 @@ function NeptuneInternal() {
                     <img src={neptune} alt="Picture of Neptune" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Neptune</h1>
                     <p className='planet-info-text'>Neptune's internal structure resembles that of Uranus. Its atmosphere forms about
                         5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core.
                         Increasing concentrations of methane, ammonia and water are found in the lower regions.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/neptune">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -25,6 +28,7 @@ function NeptuneInternal() {
                     <form method="get" action="/neptune-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

@@ -11,11 +11,14 @@ function Jupiter() {
                     <img className='jupiter-image' src={jupiter} alt="Picture of Jupiter" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>JUPITER</h1>
                     <p className='planet-info-text'>Jupiter is the fifth planet from the Sun and the largest in the Solar System.
                         It is a gas giant with a mass two and a half times that of all the other planets
                         in the Solar System combined, but less than one-thousandth the mass of the Sun.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/jupiter">
                         <button type="submit" className='planet-btn overview active-jupiter'><p>01</p>Overview</button>
                     </form>
@@ -25,6 +28,8 @@ function Jupiter() {
                     <form method="get" action="/jupiter-geology">
                         <button className='planet-btn geology'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
+
                 </div>
             </div>
             <div className='footer'>

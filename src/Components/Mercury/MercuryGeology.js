@@ -13,11 +13,14 @@ function MercuryInternal() {
                     <img className='geology-image' src={mercurygeology} alt="Picture of Mercury Geology" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>MERCURY</h1>
                     <p className='planet-info-text'>Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like
                         plains and heavy cratering, indicating that it has been geologically inactive for billions of
                         years. It is more heterogeneous than either Mars's or the Moon’s.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -27,6 +30,7 @@ function MercuryInternal() {
                     <form method="get" action="/mercury-geology">
                         <button className='planet-btn geology active-mercury'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

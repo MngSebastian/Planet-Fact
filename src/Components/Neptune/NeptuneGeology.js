@@ -14,11 +14,14 @@ function NeptuneGeology() {
 
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Neptune</h1>
                     <p className='planet-info-text'>Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is
                         also present. Prominent absorption bands of methane exist at wavelengths above 600 nm,
                         in the red and infrared portion of the spectrum.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/neptune">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -28,6 +31,7 @@ function NeptuneGeology() {
                     <form method="get" action="/neptune-geology">
                         <button className='planet-btn geology active-neptune'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

@@ -14,11 +14,14 @@ function MarsGeology() {
 
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Mars</h1>
                     <p className='planet-info-text'>Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen,
                         metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic
                         basalt, although parts are more silica-rich than typical basalt.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                </div>
+                <div className='right'>
                     <form method="get" action="/mars">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -28,6 +31,7 @@ function MarsGeology() {
                     <form method="get" action="/mars-geology">
                         <button className='planet-btn geology active-mars'><p>03</p>Surface Geology</button>
                     </form>
+                </div>
                 </div>
             </div>
             <div className='footer'>

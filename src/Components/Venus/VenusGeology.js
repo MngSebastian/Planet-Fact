@@ -12,12 +12,15 @@ function VenusInternal() {
                     <img className='geology-image' src={venusgeology} alt="Picture of Venus" />
                 </div>
                 <div className='planet-info'>
+                <div className='left'>
                     <h1 className='planet-name'>Venus</h1>
                     <p className='planet-info-text'>TMuch of the Venusian surface appears to have been shaped by volcanic activity. Venus
                         has several times as many volcanoes as Earth, and it has 167 large volcanoes that are
                         over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island
                         of Hawaii.</p>
                     <p>Source: <a className='wikipedia' href='#'>Wikipedia <img src={Source} /> </a></p>
+                    </div>
+                    <div className='right'>
                     <form method="get" action="/venus">
                         <button type="submit" className='planet-btn overview'><p>01</p>Overview</button>
                     </form>
@@ -27,6 +30,7 @@ function VenusInternal() {
                     <form method="get" action="/venus-geology">
                         <button className='planet-btn geology active-venus'><p>03</p>Surface Geology</button>
                     </form>
+                    </div>
                 </div>
             </div>
             <div className='footer'>
